@@ -1,0 +1,390 @@
+body {
+    margin: 0px;
+}
+
+.head-main-div {
+    width: 100%;
+    position: relative;
+}
+
+.head-bgimage {
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/busicol/img/banner/bradcam_1.png);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    background-color: black;
+}
+
+#head-main2 {
+    padding: 140px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head-main h3 {
+    width: 400px;
+    font-size: 52px;
+    margin-bottom: 0px;
+}
+
+.service-bg-image {
+    width: 100%;
+    margin: 150px 0 0;
+}
+
+.bg-image-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.bg-image-card {
+    width: 29%;
+    border: #1f2020 solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #919191;
+    position: relative;
+    z-index: 0;
+    padding: 50px 0px;
+}
+
+.bg-image-card h3 {
+    color: #1f2020;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.bg-image-card:hover {
+    border: none;
+    color: #fff;
+}
+
+.bg-image-card:hover h3 {
+    color: #fff;
+}
+
+.bg-image-card::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #28a745;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.bg-image-card:hover::after {
+    opacity: 1;
+    color: #fff;
+}
+
+.about-business {
+    width: 100%;
+    margin: 150px 0 0;
+}
+
+.service-image-main {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-size: 18px;
+    color: #727272;
+}
+
+.service-image {
+    width: 48%;
+}
+
+.service-image h3 {
+    font-size: 36px;
+    color: black;
+}
+
+.service-image button {
+    padding: 15px 45px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.service-text {
+    width: 100%;
+    background-color: #F5FBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.service-sub-text {
+    width: 32%;
+    font-size: 18px;
+    text-align: center;
+    color: #727272;
+}
+
+.service-sub-text h3 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.financial {
+    width: 100%;
+    margin: 100px 0px;
+}
+
+.financial-solution-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.financail-text {
+    width: 45%;
+    font-size: 20px;
+    position: relative;
+}
+
+#financail-text1 {
+    padding-bottom: 200px;
+}
+
+.financail-text h3 {
+    font-size: 40px;
+    color: #2C2C2C;
+    margin: 0px 0px 20px;
+}
+
+.epmty-div {
+    width: 40px;
+    height: 40px;
+    border: #a1dbae solid 1px;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #28a745;
+    transition: all .5s;
+    position: absolute;
+}
+
+.epmty-div:hover {
+    background-color: #28a745;
+    color: #F5FBFF;
+    cursor: pointer;
+    border: none;
+}
+
+#empty-div2 {
+    left: 50px;
+}
+
+.owner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.owner-main {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 0px 30px;
+    margin: 0px;
+}
+
+.owner-image {
+    width: 70px;
+    height: 70px;
+    background-image: url(https://preview.colorlib.com/theme/busicol/img/testmonial/1.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(233, 232, 232, .9);
+    border-radius: 50%;
+}
+
+#owner-image1 {
+    width: 90px;
+    height: 90px;
+}
+
+.owner-text {
+    width: 70%;
+    text-align: center;
+    color: #727272;
+}
+
+.owner-text p {
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 0px 0px 20px;
+}
+
+.owner-text h4 {
+    margin: 0px 0px 10px;
+    color: #2C2C2C;
+}
+
+.project-area {
+    width: 100%;
+    background-color: #28AE60;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F5FBFF;
+    text-align: center;
+    padding: 150px 0px;
+    margin: 100px 0px 0px;
+}
+
+.project-area h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.project-area p {
+    font-size: 20px;
+    margin: 8px 0px 20px;
+}
+
+.project-area-text {
+    width: 40%;
+}
+
+.project-area button {
+    padding: 15px 40px;
+    background-color: #28AE60;
+    color: white;
+    border: white solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.project-area button:hover {
+    background-color: white;
+    color: #28AE60;
+}
+
+@media screen and (max-width:1200px) {
+    .service-image {
+        width: 44%;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    #head-main2 {
+        padding: 150px 100px 150px 0px;
+    }
+
+    .bg-image-card {
+        width: 350px;
+        height: 200px;
+    }
+
+    .service-image {
+        width: 100% !important;
+    }
+
+    .financail-text {
+        width: 70%;
+        padding: 0px;
+    }
+
+    .epmty-div {
+        display: none;
+    }
+
+    #financail-text1 {
+        padding-bottom: 60px;
+    }
+
+    .project-area-text {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #head-main2 {
+        padding: 0px 10px 100px 15px;
+    }
+
+    #head-main2 h3 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .bg-image-card {
+        width: 500px;
+        height: 200px;
+    }
+
+    .service-sub-text {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .service-sub-text h3 {
+        margin: 0px;
+    }
+
+    .project-area-text {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .bg-image-card {
+        width: 400px;
+        height: 200px;
+    }
+
+    .service-image {
+        width: 100% !important;
+    }
+
+    .financail-text {
+        width: 98%;
+        padding: 0px;
+    }
+
+    #owner-image1 {
+        width: 80px;
+        height: 50px;
+    }
+
+    .owner-image {
+        width: 50px;
+        height: 30px;
+    }
+
+    .project-area-text {
+        width: 100%;
+    }
+}

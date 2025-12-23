@@ -1,0 +1,151 @@
+.Contact {
+    width: 100%;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-map {
+    width: 90%;
+}
+
+.contact-text {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.get-in-touch {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: solid 1px rgb(224, 224, 224);
+
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.name-input {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-input input {
+    width: 45%;
+    padding: 20px 10px;
+    border: solid 1px rgb(222, 220, 220);
+}
+
+.name-input input:hover {
+    border: solid 1px rgb(222, 220, 220);
+
+}
+
+.subject input {
+    width: 100%;
+    padding: 20px 10px;
+    border: solid 1px rgb(222, 220, 220);
+}
+
+.subject input:focus {
+    border: solid 1px rgb(222, 220, 220);
+}
+
+.get-in-touch button {
+    width: 120px;
+    padding: 20px 30px;
+    color: #28AE60;
+    border: #28AE60 solid 1px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.get-in-touch button:hover {
+    background-color: #28AE60;
+    color: #fff;
+}
+
+.contact-detail {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-home-address {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-home-address .fa-regular {
+    font-size: 40px;
+}
+
+.contact-home-address .fa-solid {
+    font-size: 40px;
+}
+
+.contact-home-text h3 {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.contact-home-text p {
+    margin: 0px;
+}
+
+@media screen and (max-width:1200px) {}
+
+@media screen and (max-width:992px) {
+    .get-in-touch {
+        width: 80%;
+    }
+
+    .contact-detail {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .get-in-touch {
+        width: 80%;
+    }
+
+    .contact-detail {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .get-in-touch {
+        width: 100%;
+    }
+
+    .contact-detail {
+        width: 100%;
+    }
+    .contact-map{
+        display: none;
+    }
+}
