@@ -361,9 +361,16 @@ body {
 
 @media screen and (max-width:576px) {
     .bg-image-card {
-        width: 400px;
+        width: 350px;
         height: 200px;
     }
+
+    #head-main h3 {
+        width: 350px;
+        font-size: 48px;
+        margin-bottom: 0px;
+    }
+
 
     .service-image {
         width: 100% !important;

@@ -41,7 +41,7 @@ textarea:focus {
 }
 
 .name-input {
-    width: 100%;
+    width: 98%;
     display: flex;
     justify-content: space-between;
 }
@@ -58,7 +58,7 @@ textarea:focus {
 }
 
 .subject input {
-    width: 100%;
+    width: 98%;
     padding: 20px 10px;
     border: solid 1px rgb(222, 220, 220);
 }
@@ -139,13 +139,14 @@ textarea:focus {
 
 @media screen and (max-width:576px) {
     .get-in-touch {
-        width: 100%;
+        width: 98%;
     }
 
     .contact-detail {
-        width: 100%;
+        width: 98%;
     }
-    .contact-map{
+
+    .contact-map {
         display: none;
     }
 }

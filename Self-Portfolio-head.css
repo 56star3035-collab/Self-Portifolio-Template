@@ -183,7 +183,7 @@ a:hover {
     transition: all .5s;
 }
 
-.sub-list:hover .fa-solid{
+.sub-list:hover .fa-solid {
     color: #28a745;
 }
 
@@ -206,11 +206,27 @@ a:hover {
     #head-main2 {
         padding-left: 100px;
     }
+
+    .head-main h3 {
+        width: 400px;
+        font-size: 52px;
+        margin-bottom: 0px;
+    }
+
+    #header1 {
+        display: block;
+    }
 }
 
 @media screen and (max-width:768px) {
     #head-main2 {
         padding: 20px 100px 100px 100px;
+    }
+
+    .head-main h3 {
+        width: 300px;
+        font-size: 40px;
+        margin-bottom: 0px;
     }
 
     .head-main-button button {
@@ -221,10 +237,26 @@ a:hover {
 @media screen and (max-width:576px) {
     .headerA {
         justify-content: space-around;
+        /* display: none; */
+    }
+
+    #header1 {
+        display: none;
     }
 
     #head-main2 {
-        padding: 0px 10px 150px 15px;
+        padding: 10px 0px 180px 20px;
+    }
+
+    .head-main h3 {
+        width: 300px;
+        font-size: 36px;
+        margin-bottom: 0px;
+    }
+
+    .head-main p {
+        width: 300px;
+        font-size: 18px
     }
 
     .head-main-button button {
