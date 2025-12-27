@@ -1,7 +1,7 @@
 ## Portfolio-Website
 Portfolio website built using HTML5, CSS3.
 
-<a href="https://app.netlify.com/teams/56star3035/projects" target="_blank">**Visit Now** 🚀</a>
+<a href="[https://app.netlify.com/teams/56star3035/projects](https://694eef4fe05f928d10d1b05c--funny-souffle-62d9e2.netlify.app/)" target="_blank">**LIVE VIEW** 🚀</a>
 
 ## 📌 Tech Stack
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/56star3035-collab?tab=repositories)&nbsp;
